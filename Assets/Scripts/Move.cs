@@ -141,7 +141,7 @@ public class Move : MonoBehaviour
         }
     }
 
-    public float KillPlayer()
+    public void KillPlayer()
     {
         Destroy(gameObject);
     }
